@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Digit Dots</string>
+    <string name="about_text"><b>About Digit Dots</b> \nDigit Dots are a way to teach basic addition and subtraction skills.
+        Students learn the position of dots and lines (forming an \'X\') on each digit. The number of marks on each digit
+        corresponds to the value of the digit. To add two digits together, students just count the marks on each digit to find the sum.
+        In \'Learn\' mode, students learn the placement of the dots and lines on the digits. In \'Practice\' mode, students have to remember
+        where the dots and lines are located. In \'Addition Quiz\' mode, student get to apply what they have learned to answer ten addition
+        problems.\n\n<b>Why are Digit Dots better than alternatives?</b> \nDigit Dots have some improvements over another similar system. One
+    improvement is the use of an \'X\' to indicate a spot to count twice instead of a circle with a line around it. The \'X\' is much easier for
+        young students to write, especially stucdents with low fine-motor skills. Another improvement
+        is the position of the dots on the digit \'four\'. Compared to another popular system, the position of the Digit Dots on a
+        \'four\' make it easier for students to place on different types of \'fours\'.\n\n<b>Worksheets and Posters</b>
+        \nGo to www.beauvine.net/digitdots to access worksheets and handouts to help students master digit dots at home and at school.
+
+
+    </string>
+</resources>

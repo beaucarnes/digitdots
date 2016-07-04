@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <Button
+        android:layout_width="70sp"
+        android:layout_height="40sp"
+        android:contentDescription="Previous"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:foreground="@drawable/ic_action_left"
+        android:foregroundGravity="center"
+        android:layout_marginBottom="10sp"
+        android:layout_marginLeft="20sp"
+        android:background="@drawable/circle_nav"
+        android:padding="10sp"
+        android:onClick="leftNav" />
+
+    <Button
+        android:layout_width="70sp"
+        android:layout_height="40sp"
+        android:contentDescription="Refresh"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:foreground="@drawable/ic_action_refresh"
+        android:foregroundGravity="center"
+        android:layout_marginBottom="10sp"
+        android:layout_marginLeft="105sp"
+        android:background="@drawable/circle_nav"
+        android:padding="10sp"
+        android:nestedScrollingEnabled="false"
+        android:onClick="refreshDots" />
+
+    <Button
+        android:layout_width="70sp"
+        android:layout_height="40sp"
+        android:contentDescription="Home"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10sp"
+        android:layout_marginRight="105sp"
+        android:foreground="@drawable/ic_action_action_home"
+        android:foregroundGravity="center"
+        android:background="@drawable/circle_nav"
+        android:padding="10sp"
+        android:onClick="home" />
+
+    <Button
+        android:layout_width="70sp"
+        android:layout_height="40sp"
+        android:contentDescription="Next"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10sp"
+        android:layout_marginRight="20sp"
+        android:foreground="@drawable/ic_action_right"
+        android:foregroundGravity="center"
+        android:background="@drawable/circle_nav"
+        android:padding="10sp"
+        android:onClick="rightNav"/>
+
+</RelativeLayout>
